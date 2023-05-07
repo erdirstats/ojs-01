@@ -54,8 +54,7 @@ Plot of soil units in each location.
 Plot.plot({
     style: {
         fontSize: 14,
-        //fontWeight: 450,
-        fontFamily: 'Fira Mono'
+        fontWeight: 450
     },
     y: {
         domain: [0, 65],
