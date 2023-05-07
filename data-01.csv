@@ -1,0 +1,592 @@
+unit,type,from,to,desc,loc
+Unit: 02,S,0,0.5,"SAND, medium dense to very dense, ",LOC: 02
+Unit: 03,C,0.5,5.2,"CLAY, low strength",LOC: 02
+Unit: 04,S,5.2,6.5,"SAND,  very dense",LOC: 02
+Unit: 04,S,6.5,8.5,,LOC: 02
+Unit: 04,S,8.5,14.5,,LOC: 02
+Unit: 04,S,14.5,17.5,"SAND, very dense",LOC: 02
+Unit: 04,S,17.5,19.5,,LOC: 02
+Unit: 06,C_S,19.5,28,"CLAY, extremely  high strength ",LOC: 02
+Unit: 06,C_S,28,33.5,"CLAY, extremely  high strength ",LOC: 02
+Unit: 08,C_S,33.5,35,"CLAY and SILT, sandy, extremely high strength to ultra high strength",LOC: 02
+Unit: 08,C_S,35,38,,LOC: 02
+Unit: 08,C_S,38,40.39,,LOC: 02
+Unit: 01,S,0,0.1,"SAND, loose to very dense",LOC: 03
+Unit: 03,C,0.1,1,"CLAY, low strength",LOC: 03
+Unit: 04,S,1,5,"SAND, dense to very dense",LOC: 03
+Unit: 04,S,5,7,,LOC: 03
+Unit: 04,S,7,10.5,,LOC: 03
+Unit: 04,S,10.5,12,"SAND, dense to very dense",LOC: 03
+Unit: 04,S,12,13.3,,LOC: 03
+Unit: 06,C_S,13.3,26.4,"CLAY, extremely high strength ",LOC: 03
+Unit: 08,C_S,26.4,34.2,"CLAY and SILT, sandy, extremely high strength to ultra high strength",LOC: 03
+Unit: 09,S,34.2,39.76,"SAND, very dense",LOC: 03
+Unit: 01,S,0,0.4,"SAND, loose to very dense",LOC: 04
+Unit: 04,S,0.4,2,"SAND, very dense",LOC: 04
+Unit: 04,S,2,10,,LOC: 04
+Unit: 04,S,10,12,,LOC: 04
+Unit: 04,S,12,13,"SAND, dense to very dense",LOC: 04
+Unit: 04,S,13,15,,LOC: 04
+Unit: 06,C_S,15,17,"CLAY, very high strength ",LOC: 04
+Unit: 06,C_S,17,21.5,,LOC: 04
+Unit: 06,C_S,21.5,28.3,"CLAY, very high to extremely high strength, with sand layers",LOC: 04
+Unit: 08,C_S,28.3,32,"CLAY and SILT, sandy, extremely high strength to ultra high strength",LOC: 04
+Unit: 08,C_S,32,35,,LOC: 04
+Unit: 08,C_S,35,38.28,,LOC: 04
+Unit: 01,S,0,0.5,"SAND, loose to very dense",LOC: 05
+Unit: 02,S,0.5,1.5,"SAND, medium dense ",LOC: 05
+Unit: 04,S,1.5,4.5,"SAND, dense to very dense",LOC: 05
+Unit: 04,S,4.5,10.5,,LOC: 05
+Unit: 04,S,10.5,13.5,"SAND, very dense",LOC: 05
+Unit: 04,S,13.5,16,,LOC: 05
+Unit: 06,C_S,16,22,"CLAY, extremely high strength",LOC: 05
+Unit: 06,C_S,22,27,"CLAY, extremely high strength",LOC: 05
+Unit: 08,C_S,27,28,"CLAY and SILT, sandy, extremely high strength to ultra high strength",LOC: 05
+Unit: 08,C_S,28,35,,LOC: 05
+Unit: 08,C_S,35,40.89,,LOC: 05
+Unit: 01,S,0,0.2,"SAND, loose to very dense",LOC: 07
+Unit: 03,C_S,0.2,2.7,"CLAY, low to medium strength",LOC: 07
+Unit: 03,C,2.7,5.4,"CLAY, high to very high strength",LOC: 07
+Unit: 06,C_S,5.4,8.1,"CLAY, high to very high strength",LOC: 07
+Unit: 06,C_S,8.1,14.6,"CLAY, very high strength ",LOC: 07
+Unit: 08,C_S,14.6,27,"CLAY and SILT, sandy, extremely high strength to ultra high strength",LOC: 07
+Unit: 10,C,27,40.12,"CLAY, very high to extremely high strength",LOC: 07
+Unit: 01,S,0,0.2,"SAND, loose to very dense",LOC: 08
+Unit: 03,C,0.2,1.5,"CLAY, low strength to very high strength",LOC: 08
+Unit: 04,S,1.5,3.8,"SAND, dense to very dense",LOC: 08
+Unit: 04,S,3.8,5,,LOC: 08
+Unit: 05,Si,5,16,"SILT, extremely high to ultra high strength",LOC: 08
+Unit: 04,S,16,22,"SAND, dense to very dense",LOC: 08
+Unit: 06,C_S,22,26.5,"CLAY, extremely high strength",LOC: 08
+Unit: 06,C_S,26.5,33,"CLAY, extremely high strength",LOC: 08
+Unit: 08,C_S,33,40.25,"CLAY and SILT, extremely high strength to ultra high strength",LOC: 08
+Unit: 01,S,0,0.5,"SAND, loose to very dense",LOC: 11
+Unit: 02,S,0.5,1.4,"SAND,  dense to very dense",LOC: 11
+Unit: 03,C,1.4,2.3,"CLAY, low strength to high strength",LOC: 11
+Unit: 04,S,2.3,5,"SAND, dense to very dense",LOC: 11
+Unit: 04,S,5,6,,LOC: 11
+Unit: 04,S,6,14,,LOC: 11
+Unit: 05,Si,14,16,"SILT, extremely high strength",LOC: 11
+Unit: 06,C_S,16,39,"CLAY, very high to extremely high strength",LOC: 11
+Unit: 08,C_S,39,41.48,"CLAY and SILT, sandy, extremely high strength ",LOC: 11
+Unit: 01,S,0,0.2,"SAND, loose to very dense",LOC: 12
+Unit: 02,S,0.2,1,"SAND, medium dense to very dense",LOC: 12
+Unit: 06,C_S,1,2,"CLAY, very high strength, with layers of sand",LOC: 12
+Unit: 06,C_S,2,6.8,,LOC: 12
+Unit: 06,C_S,6.8,17,"CLAY, very high strength ",LOC: 12
+Unit: 06,C_S,17,18,,LOC: 12
+Unit: 06,C_S,18,19,,LOC: 12
+Unit: 04,S,19,23,"SAND, medium dense to dense",LOC: 12
+Unit: 06,C_S,23,26,"CLAY, very high to extremely high strength, with layers of sand ",LOC: 12
+Unit: 06,C_S,26,36,,LOC: 12
+Unit: 06,C_S,36,40.17,,LOC: 12
+Unit: 02,S,0,0.4,"SAND, loose to very dense",LOC: 13
+Unit: 03,C,0.4,1.3,"CLAY, high strength",LOC: 13
+Unit: 04,S,1.3,8,"SAND, dense to very dense",LOC: 13
+Unit: 04,S,8,10,"SAND, very dense",LOC: 13
+Unit: 06,C_S,10,13.2,"CLAY, very high strength ",LOC: 13
+Unit: 06,C_S,13.2,23,"CLAY, very high to extremely high strength, with layers of sand",LOC: 13
+Unit: 06,C_S,23,26.3,,LOC: 13
+Unit: 08,C_S,26.3,37,"CLAY and SILT, sandy, extremely high strength to ultra high strength",LOC: 13
+Unit: 10,C,37,40,"CLAY, very high to extremely high strength",LOC: 13
+Unit: 10,C,40,56.39,,LOC: 13
+Unit: 01,S,0,0.3,"SAND, loose ",LOC: 14
+Unit: 03,C,0.3,3.3,"CLAY, medium strength to high strength",LOC: 14
+Unit: 04,S,3.3,5,"SAND, dense to very dense",LOC: 14
+Unit: 04,S,5,6.5,,LOC: 14
+Unit: 06,C_S,6.5,10.5,"CLAY, very high strength ",LOC: 14
+Unit: 04,S,10.5,14,"SAND, dense to very dense",LOC: 14
+Unit: 06,C_S,14,15.8,"CLAY, very high strength",LOC: 14
+Unit: 06,C_S,15.8,23,,LOC: 14
+Unit: 06,C_S,23,26,,LOC: 14
+Unit: 09,S,26,33,"SAND, very dense",LOC: 14
+Unit: 08,C_S,33,35.5,"CLAY and SILT, sandy, extremely high strength to ultra high strength",LOC: 14
+Unit: 08,C_S,35.5,41.8,,LOC: 14
+Unit: 01,S,0,0.4,"SAND, loose to very dense",LOC: 15
+Unit: 02,S,0.4,1,"SAND,very dense",LOC: 15
+Unit: 04,S,1,3,"SAND, dense to very dense",LOC: 15
+Unit: 04,S,3,5.2,,LOC: 15
+Unit: 04,S,5.2,14.9,,LOC: 15
+Unit: 05,Si,14.9,19.5,"SILT, extremely high strength",LOC: 15
+Unit: 06,C_S,19.5,25.7,"CLAY, very high to extremely strength ",LOC: 15
+Unit: 06,C_S,25.7,28,"CLAY, extremely high strength",LOC: 15
+Unit: 08,C_S,28,40.1,"CLAY and SILT, sandy, extremely high strength to ultra high strength",LOC: 15
+Unit: 01,S,0,0.3,"SAND, loose to very dense",LOC: 16
+Unit: 03,C,0.3,2,"CLAY, low strength to medium strength",LOC: 16
+Unit: 06,C_S,2,5,"CLAY, very high strength ",LOC: 16
+Unit: 04,S,5,6.5,"SAND, very dense",LOC: 16
+Unit: 06,C_S,6.5,13.9,"CLAY, very high strength, with layers of sand",LOC: 16
+Unit: 09,S,13.9,18.7,"SAND, very dense",LOC: 16
+Unit: 10,C,18.7,25,"CLAY, very high to extremely high strength",LOC: 16
+Unit: 10,C,25,41.8,,LOC: 16
+Unit: 01,S,0,0.2,"SAND, loose to very dense",LOC: 17
+Unit: 03,C,0.2,2.1,"CLAY, low strength to high strength",LOC: 17
+Unit: 04,S,2.1,8.6,"SAND, dense to very dense",LOC: 17
+Unit: 05,Si,8.6,12.5,"SILT, extremely high strength",LOC: 17
+Unit: 06,C_S,12.5,18.7,"CLAY, very high to extremely high strength",LOC: 17
+Unit: 04,S,18.7,20,"SAND, dense to very dense ",LOC: 17
+Unit: 04,S,20,22,,LOC: 17
+Unit: 04,S,22,26,,LOC: 17
+Unit: 04,S,26,28,,LOC: 17
+Unit: 04,S,28,29.4,,LOC: 17
+Unit: 10,C,29.4,36.33,"CLAY, very high to extremely high strength",LOC: 17
+Unit: 01,S,0,0.2,"SAND, loose to very dense",LOC: 19
+Unit: 03,C,0.2,4.3,"CLAY, low strength to medium strength",LOC: 19
+Unit: 04,S,4.3,6.2,"SAND, medium dense to very dense",LOC: 19
+Unit: 04,S,6.2,8,"SAND, medium dense to dense",LOC: 19
+Unit: 06,C_S,8,13,"CLAY, extremely high strength, with layers of sand",LOC: 19
+Unit: 04,S,13,16,"SAND, medium dense to very dense",LOC: 19
+Unit: 06,C_S,16,19,"CLAY, very high to extremely high strength ",LOC: 19
+Unit: 07,C_S,19,32.4,"CLAY, extremely  high strength ",LOC: 19
+Unit: 10,C,32.4,40.34,"CLAY, very high to extremely high strength",LOC: 19
+Unit: 01,S,0,0.2,"SAND, loose to very dense",LOC: 21
+Unit: 03,C_S,0.2,0.6,"CLAY, low strength",LOC: 21
+Unit: 04,S,0.6,3.5,"SAND, dense to very dense",LOC: 21
+Unit: 04,S,3.5,5.2,,LOC: 21
+Unit: 04,S,5.2,7.2,,LOC: 21
+Unit: 04,S,7.2,13.8,"SAND, dense to very dense",LOC: 21
+Unit: 06,C_S,13.8,20,"CLAY, very high strength ",LOC: 21
+Unit: 06,C_S,20,23.5,"CLAY, very high strength, with layers of sand",LOC: 21
+Unit: 06,C_S,23.5,29.5,,LOC: 21
+Unit: 07,C,29.5,45.1,"CLAY, extremely high strength ",LOC: 21
+Unit: 01,S,0,1.1,"SAND, medium dense to very dense",LOC: 22
+Unit: 04,S,1.1,9.5,"SAND, dense to very dense",LOC: 22
+Unit: 05,Si,9.5,13.4,"SILT, very high to extremely high strength",LOC: 22
+Unit: 06,C_S,13.4,16.2,"CLAY, very high strength ",LOC: 22
+Unit: 04,S,16.2,27,"SAND, medium dense to very dense",LOC: 22
+Unit: 04,S,27,34,,LOC: 22
+Unit: 04,S,34,36.9,,LOC: 22
+Unit: 08,C_S,36.9,40.09,"CLAY and SILT, sandy, extremely high to ultra high strength",LOC: 22
+Unit: 01,S,0,0.5,"SAND, very loose ",LOC: 24
+Unit: 02,S,0.5,3.3,"SAND,  very dense",LOC: 24
+Unit: 04,S,3.3,6.5,"SAND, dense to very dense",LOC: 24
+Unit: 04,S,6.5,10.5,,LOC: 24
+Unit: 04,S,10.5,12,"SAND, medium dense to dense, with layers of silt",LOC: 24
+Unit: 04,S,12,23.5,,LOC: 24
+Unit: 04,S,23.5,25.5,,LOC: 24
+Unit: 04,S,25.5,30,,LOC: 24
+Unit: 04,S,30,35.5,,LOC: 24
+Unit: 06,C_S,35.5,39.9,"CLAY, very high to extremely high strength",LOC: 24
+Unit: 09,S,39.9,40.19,"SAND, very dense",LOC: 24
+Unit: 01,S,0,0.1,"SAND, loose to very dense",LOC: 25
+Unit: 03,C,0.1,3.1,"CLAY, low strength to high strength",LOC: 25
+Unit: 06,C_S,3.1,8.5,"CLAY, low strength to high strength",LOC: 25
+Unit: 04,S,8.5,21.7,"SAND, dense to very dense",LOC: 25
+Unit: 06,C_S,21.7,22.8,"CLAY, very high strength ",LOC: 25
+Unit: 04,S,22.8,24.5,"SAND, medium dense to very dense",LOC: 25
+Unit: 06,C_S,24.5,31,"CLAY, very high to extremely high strength, with layers of sand",LOC: 25
+Unit: 06,C_S,31,33,,LOC: 25
+Unit: 06,C_S,33,40.21,,LOC: 25
+Unit: 01,S,0,0.5,"SAND, loose to very dense",LOC: 26
+Unit: 03,C_S,0.5,1.3,"CLAY, low strength to high strength",LOC: 26
+Unit: 04,S,1.3,4,"SAND, very dense",LOC: 26
+Unit: 04,S,4,9,,LOC: 26
+Unit: 04,S,9,10.5,,LOC: 26
+Unit: 06,C_S,10.5,22,"CLAY, high to very high strength, with layers of sand",LOC: 26
+Unit: 04,S,22,28.9,"SAND, dense to very dense",LOC: 26
+Unit: 06,C_S,28.9,41.79,"CLAY, high to ultra-high strength, with layers of sand",LOC: 26
+Unit: 01,S,0,0.2,"SAND, loose to very dense",LOC: 27
+Unit: 03,C_S,0.2,2.2,"CLAY, low strength to high strength",LOC: 27
+Unit: 03,C,2.2,4.8,"CLAY, low strength to high strength",LOC: 27
+Unit: 04,S,4.8,7,"SAND, dense to very dense",LOC: 27
+Unit: 04,S,7,15,,LOC: 27
+Unit: 04,S,15,19.2,"SAND, dense to very dense",LOC: 27
+Unit: 06,C_S,19.2,21.2,"CLAY, very high strength ",LOC: 27
+Unit: 06,C_S,21.2,40.2,"CLAY, very high to extremely high strength to ultra-high strength",LOC: 27
+Unit: 01,S,0,0.2,"SAND, loose to dense",LOC: 28
+Unit: 02,S,0.2,0.5,"SAND, medium dense to very dense ",LOC: 28
+Unit: 03,C,0.5,1.7,"CLAY, high strength",LOC: 28
+Unit: 04,S,1.7,6.5,"SAND, dense to very dense",LOC: 28
+Unit: 06,C_S,6.5,12.4,"CLAY, very high to extremely high strength ",LOC: 28
+Unit: 09,S,12.4,19,"SAND, very dense",LOC: 28
+Unit: 09,S,19,23,,LOC: 28
+Unit: 09,S,23,25,,LOC: 28
+Unit: 09,S,25,32.6,,LOC: 28
+Unit: 07,C,32.6,40.63,"CLAY, extremely  high strength ",LOC: 28
+Unit: 01,S,0,0.5,"SAND, loose",LOC: 30
+Unit: 02,S,0.5,4,"SAND, very dense ",LOC: 30
+Unit: 03,C,4,10.5,"CLAY, high to very high strength",LOC: 30
+Unit: 03,C,10.5,14,,LOC: 30
+Unit: 04,S,14,16,"SAND, dense to very dense",LOC: 30
+Unit: 04,S,16,18.3,"SAND, dense to very dense",LOC: 30
+Unit: 04,S,18.3,23.2,"SAND, very dense",LOC: 30
+Unit: 06,C_S,23.2,26,"CLAY, very high strength ",LOC: 30
+Unit: 04,S,26,29,"SAND, dense to very dense",LOC: 30
+Unit: 09,S,29,30.8,"SAND, very dense",LOC: 30
+Unit: 08,C_S,30.8,40.44,"CLAY and SILT, sandy, extremely high to ultra high strength",LOC: 30
+Unit: 01,S,0,0.5,"SAND, loose to very dense",LOC: 31
+Unit: 02,S,0.5,3.4,"SAND, dense to very dense",LOC: 31
+Unit: 04,S,3.4,10,"SAND, dense to very dense",LOC: 31
+Unit: 04,S,10,16.6,,LOC: 31
+Unit: 04,S,16.6,18,,LOC: 31
+Unit: 04,S,18,24,,LOC: 31
+Unit: 05,Si,24,24.8,"SILT, extremely high strength",LOC: 31
+Unit: 04,S,24.8,29.1,"SAND, very dense",LOC: 31
+Unit: 06,C_S,29.1,34.1,"CLAY, very high strength ",LOC: 31
+Unit: 08,C_S,34.1,40.21,"CLAY and SILT, sandy, extremely high strength to ultra high strength",LOC: 31
+Unit: 01,S,0,0.3,"SAND, loose to very dense",LOC: 33
+Unit: 02,S,0.3,1.2,"SAND,  dense to very dense",LOC: 33
+Unit: 03,C,1.2,3.5,"CLAY, low to high strength, with layers of sand",LOC: 33
+Unit: 06,C_S,3.5,5.2,"CLAY, high to very high strength, with layers of sand",LOC: 33
+Unit: 04,S,5.2,10,"SAND, dense to very dense",LOC: 33
+Unit: 04,S,10,15.4,,LOC: 33
+Unit: 04,S,15.4,16.9,"SAND, dense to very dense",LOC: 33
+Unit: 04,S,16.9,40.5,,LOC: 33
+Unit: 01,S,0,0.6,"SAND, loose to very dense",LOC: 34
+Unit: 02,S,0.6,1.5,"SAND, dense to very dense",LOC: 34
+Unit: 03,C,1.5,4.7,"CLAY, low to medium strength",LOC: 34
+Unit: 06,C_S,4.7,5.5,"CLAY, high to very high strength",LOC: 34
+Unit: 06,C_S,5.5,9.6,,LOC: 34
+Unit: 04,S,9.6,16,"SAND, very dense",LOC: 34
+Unit: 05,Si,16,20.7,"SILT, extremely high strength",LOC: 34
+Unit: 04,S,20.7,32.5,"SAND, very dense",LOC: 34
+Unit: 06,C_S,32.5,40.5,"CLAY, extremely high strength ",LOC: 34
+Unit: 09,S,40.5,44.5,"SAND, very dense",LOC: 34
+Unit: 07,C,44.5,53,"CLAY, extremely  high strength ",LOC: 34
+Unit: 07,C,53,57.19,,LOC: 34
+Unit: 03,C,0,1.7,"CLAY, low to medium strength",LOC: 36
+Unit: 04,S,1.7,2.5,"SAND, medium dense to dense",LOC: 36
+Unit: 04,S,2.5,3,"SAND, dense to very dense",LOC: 36
+Unit: 04,S,3,7.5,,LOC: 36
+Unit: 04,S,7.5,12.5,"SAND, dense to very dense",LOC: 36
+Unit: 06,C_S,12.5,16,"CLAY, very high to extremely strength ",LOC: 36
+Unit: 06,C_S,16,18,,LOC: 36
+Unit: 09,S,18,28.2,"SAND, dense to very dense",LOC: 36
+Unit: 08,C_S,28.2,32,"CLAY and SILT, sandy, extremely high to ultra high strength",LOC: 36
+Unit: 08,C_S,32,39.8,,LOC: 36
+Unit: 01,S,0,0.3,"SAND, loose to very dense",LOC: 37
+Unit: 03,C,0.3,1.1,"CLAY, low strength to high strength",LOC: 37
+Unit: 04,S,1.1,6.1,"SAND, medium dense to very dense",LOC: 37
+Unit: 04,S,6.1,15,"SAND, dense to very dense",LOC: 37
+Unit: 04,S,15,20.5,"SAND, dense to very dense",LOC: 37
+Unit: 06,C_S,20.5,24,"CLAY, extremely high strength ",LOC: 37
+Unit: 06,C_S,24,27,"CLAY, extremely high strength ",LOC: 37
+Unit: 09,S,27,39.83,"SAND, very dense",LOC: 37
+Unit: 02,S,0,2.85,"SAND,  dense to very dense",LOC: 38
+Unit: 03,C,2.85,5.8,"CLAY, low strength to high strength",LOC: 38
+Unit: 04,S,5.8,9.6,"SAND, dense to very dense",LOC: 38
+Unit: 06,C_S,9.6,20,"CLAY, very high to extremely high strength ",LOC: 38
+Unit: 06,C_S,20,21.1,,LOC: 38
+Unit: 06,C_S,21.1,24.1,"CLAY, very high to extremely high strength",LOC: 38
+Unit: 04,S,24.1,26.5,"SAND, medium dense to very dense",LOC: 38
+Unit: 04,S,26.5,40.07,,LOC: 38
+Unit: 01,S,0,0.3,"SAND, medium dense to dense",LOC: 40
+Unit: 02,S,0.3,2.7,"SAND, dense to very dense",LOC: 40
+Unit: 04,S,2.7,8,"SAND, dense to very dense",LOC: 40
+Unit: 04,S,8,11,"SAND, very dense",LOC: 40
+Unit: 06,C_S,11,20,"CLAY, very high strength, with layers of sand ",LOC: 40
+Unit: 09,S,20,24,"SAND, very dense",LOC: 40
+Unit: 08,C_S,24,40.41,"CLAY and SILT, sandy, extremely high strength to ultra high strength",LOC: 40
+Unit: 01,S,0,0.1,"SAND, loose to very dense",LOC: 41
+Unit: 02,S,0.1,1,"SAND, very dense",LOC: 41
+Unit: 06,C_S,1,3.2,"CLAY,very high strength",LOC: 41
+Unit: 04,S,3.2,5.5,"SAND, dense to very dense",LOC: 41
+Unit: 04,S,5.5,14.5,"SAND, very dense",LOC: 41
+Unit: 06,C_S,14.5,17,"CLAY, extremely high strength ",LOC: 41
+Unit: 09,S,17,21,"SAND, medium dense to very dense",LOC: 41
+Unit: 09,S,21,27,,LOC: 41
+Unit: 08,C_S,27,39.63,"CLAY and SILT,sandy, extremely high strength to ultra high strength",LOC: 41
+Unit: 01,S,0,0.4,"SAND, loose to very dense",LOC: 42
+Unit: 02,S,0.4,1.3,"SAND, dense to very dense ",LOC: 42
+Unit: 03,C,1.3,1.8,"CLAY, medium strength",LOC: 42
+Unit: 06,C_S,1.8,4,"CLAY, high to very high strength, with layers of sand",LOC: 42
+Unit: 04,S,4,7,"SAND, dense to very dense",LOC: 42
+Unit: 04,S,7,12.7,"SAND, dense to very dense",LOC: 42
+Unit: 04,S,12.7,16.8,"SAND, dense to very dense",LOC: 42
+Unit: 06,C_S,16.8,18,"CLAY, extremely high strength ",LOC: 42
+Unit: 04,S,18,20,"SAND, very dense",LOC: 42
+Unit: 06,C_S,20,22.2,"CLAY, extremely high strength ",LOC: 42
+Unit: 09,S,22.2,25,"SAND,dense to very dense",LOC: 42
+Unit: 08,C_S,25,27.5,"CLAY and SILT, sandy, extremely high strength to ultra high strength",LOC: 42
+Unit: 08,C_S,27.5,30,,LOC: 42
+Unit: 08,C_S,30,35,,LOC: 42
+Unit: 08,C_S,35,43.5,,LOC: 42
+Unit: 08,C_S,43.5,55,,LOC: 42
+Unit: 01,S,0,0.4,"SAND, loose",LOC: 43
+Unit: 02,S,0.4,4,"SAND, very dense",LOC: 43
+Unit: 02,S,4,5,,LOC: 43
+Unit: 03,C,5,9.6,"CLAY, low strength ",LOC: 43
+Unit: 04,S,9.6,10.4,"SAND, dense to very dense",LOC: 43
+Unit: 05,Si,10.4,12.5,"SILT, very high to extremely highstrength",LOC: 43
+Unit: 04,S,12.5,14.5,"SAND, dense to very dense",LOC: 43
+Unit: 04,S,14.5,16.2,,LOC: 43
+Unit: 06,C_S,16.2,22.1,"CLAY, extremely high strength, with layers of sand",LOC: 43
+Unit: 09,S,22.1,24.5,"SAND,  dense to very dense",LOC: 43
+Unit: 08,C_S,24.5,46,"CLAY and SILT, sandy, extremely high strength to ultra high strength",LOC: 43
+Unit: 08,C_S,46,55,,LOC: 43
+Unit: 01,S,0,0.4,"SAND, loose",LOC: 44
+Unit: 02,S,0.4,2,"SAND, dense to very dense",LOC: 44
+Unit: 02,S,2,4.3,,LOC: 44
+Unit: 03,C,4.3,5.9,"CLAY, low strength",LOC: 44
+Unit: 04,S,5.9,18.5,"SAND, very dense",LOC: 44
+Unit: 05,Si,18.5,20,"SILT, extremely high strength",LOC: 44
+Unit: 06,C_S,20,26.5,"CLAY, very high strength ",LOC: 44
+Unit: 06,C_S,26.5,27.5,,LOC: 44
+Unit: 04,S,27.5,30,"SAND, medium dense to very dense",LOC: 44
+Unit: 04,S,30,31,,LOC: 44
+Unit: 04,S,31,33.5,,LOC: 44
+Unit: 09,S,33.5,40.18,"SAND, very dense",LOC: 44
+Unit: 01,S,0,0.2,"SAND,  loose ",LOC: 46
+Unit: 02,S,0.2,1.5,"SAND, dense to very dense",LOC: 46
+Unit: 03,C,1.5,2.1,"CLAY, medium strength to high strength",LOC: 46
+Unit: 04,S,2.1,4,"SAND, medium dense to  dense",LOC: 46
+Unit: 06,C_S,4,8,"CLAY, very high strength to extremely high strength, with layers of sand",LOC: 46
+Unit: 06,C_S,8,20,,LOC: 46
+Unit: 06,C_S,20,26,,LOC: 46
+Unit: 06,C_S,26,31.1,,LOC: 46
+Unit: 09,S,31.1,32.74,"SAND, very dense",LOC: 46
+Unit: 01,S,0,0.2,"SAND, loose to medium dense",LOC: 47
+Unit: 02,S,0.2,4.1,"SAND, very dense",LOC: 47
+Unit: 06,C_S,4.1,6.25,"CLAY, extremely high strength, with layers of sand",LOC: 47
+Unit: 04,S,6.25,7,"SAND, dense to very dense",LOC: 47
+Unit: 04,S,7,10,,LOC: 47
+Unit: 04,S,10,21,,LOC: 47
+Unit: 04,S,21,22.1,,LOC: 47
+Unit: 06,C_S,22.1,23,"CLAY, extremely high strength",LOC: 47
+Unit: 06,C_S,23,26.8,"CLAY, extremely high strength",LOC: 47
+Unit: 08,C_S,26.8,31,"CLAY and SILT, sandy, extremely high to ultra high strength",LOC: 47
+Unit: 07,C,31,45.35,"CLAY, extremely high strength ",LOC: 47
+Unit: 01,S,0,0.4,"SAND, loose to very dense",LOC: 48
+Unit: 02,S,0.4,3,"SAND, dense to very dense",LOC: 48
+Unit: 02,S,3,4.8,,LOC: 48
+Unit: 03,C,4.8,5.9,"CLAY, low to very high strength",LOC: 48
+Unit: 04,S,5.9,7,"SAND, very dense",LOC: 48
+Unit: 04,S,7,10.5,,LOC: 48
+Unit: 04,S,10.5,13,,LOC: 48
+Unit: 04,S,13,13.3,,LOC: 48
+Unit: 05,Si,13.3,14.2,"SILT, extremely high strength",LOC: 48
+Unit: 04,S,14.2,17.6,"SAND, very dense",LOC: 48
+Unit: 06,C_S,17.6,19.1,"CLAY, extremely high strength",LOC: 48
+Unit: 06,C_S,19.1,21,"CLAY, extremely high strength",LOC: 48
+Unit: 08,C_S,21,27,"CLAY and SILT, sandy, extremely high to ultra high strength",LOC: 48
+Unit: 08,C_S,27,36,,LOC: 48
+Unit: 08,C_S,36,40.2,,LOC: 48
+Unit: 07,C,40.2,51.15,"CLAY, extremely high strength ",LOC: 48
+Unit: 01,S,0,0.4,"SAND,  loose ",LOC: 50
+Unit: 02,S,0.4,0.9,"SAND, dense to very dense",LOC: 50
+Unit: 04,S,0.9,8.1,"SAND, dense to very dense",LOC: 50
+Unit: 05,Si,8.1,13,"SILT, very high to extremely strength",LOC: 50
+Unit: 06,C_S,13,24.5,"CLAY, very high strength ",LOC: 50
+Unit: 09,S,24.5,27,"SAND, very dense",LOC: 50
+Unit: 08,C_S,27,40.64,"CLAY and SILT, sandy, extremely high to ultra high strength",LOC: 50
+Unit: 01,S,0,0.2,"SAND, loose to very dense",LOC: 52
+Unit: 02,S,0.2,2,"SAND, medium dense to dense",LOC: 52
+Unit: 02,S,2,2.8,,LOC: 52
+Unit: 03,C,2.8,7.6,"CLAY, low strength to medium strength",LOC: 52
+Unit: 04,S,7.6,9.1,"SAND, very dense",LOC: 52
+Unit: 06,C_S,9.1,15,"CLAY, very high to extremely high strength, with very dense SAND layers",LOC: 52
+Unit: 09,S,15,31,"SAND, very dense",LOC: 52
+Unit: 07,C,31,40.34,"CLAY, extremely high strength, with layers of sand",LOC: 52
+Unit: 01,S,0,0.2,"SAND, loose to medium dense",LOC: 54
+Unit: 02,S,0.2,0.5,"SAND, medium dense",LOC: 54
+Unit: 03,C,0.5,3,"CLAY, low strength to high strength",LOC: 54
+Unit: 04,S,3,5.4,"SAND, dense to very dense",LOC: 54
+Unit: 04,S,5.4,11.2,"SAND, dense to very dense",LOC: 54
+Unit: 04,S,11.2,14,"SAND, dense to very dense",LOC: 54
+Unit: 06,C_S,14,25.4,"CLAY, very high strength ",LOC: 54
+Unit: 08,C_S,25.4,28.1,"CLAY and SILT, sandy, extremely high to ultra high strength",LOC: 54
+Unit: 09,S,28.1,34.5,"SAND, very dense",LOC: 54
+Unit: 10,C,34.5,54.82,"CLAY, very high to extremely high strength",LOC: 54
+Unit: 01,S,0,0.3,"SAND, loose to very dense",LOC: 55
+Unit: 02,S,0.3,0.9,"SAND, dense to very dense",LOC: 55
+Unit: 03,C,0.9,3.1,"CLAY, high strength",LOC: 55
+Unit: 04,S,3.1,10.5,"SAND, dense to very dense",LOC: 55
+Unit: 06,C_S,10.5,14,"CLAY, very high to extremely high strength, with layers of sand",LOC: 55
+Unit: 06,C_S,14,17,,LOC: 55
+Unit: 06,C_S,17,22.8,,LOC: 55
+Unit: 09,S,22.8,26.6,"SAND, dense to very dense",LOC: 55
+Unit: 10,C,26.6,43.2,"CLAY, very high to extremely high strength",LOC: 55
+Unit: 10,C,43.2,45.5,,LOC: 55
+Unit: 10,C,45.5,50,,LOC: 55
+Unit: 10,C,50,56.71,,LOC: 55
+Unit: 01,S,0,0.2,"SAND, loose to very dense",LOC: 56
+Unit: 02,S,0.2,1,"SAND, dense to very dense ",LOC: 56
+Unit: 03,C,1,1.5,"CLAY, low strength to high strength",LOC: 56
+Unit: 04,S,1.5,10.3,"SAND, dense to very dense",LOC: 56
+Unit: 06,C_S,10.3,13.9,"CLAY, very high strength ",LOC: 56
+Unit: 06,C_S,13.9,16.3,,LOC: 56
+Unit: 06,C_S,16.3,25,,LOC: 56
+Unit: 09,S,25,26.3,"SAND, very dense",LOC: 56
+Unit: 08,C_S,26.3,28.7,"CLAY and SILT, extremely high strength to ultra high strength",LOC: 56
+Unit: 09,S,28.7,31.2,"SAND, very dense",LOC: 56
+Unit: 10,C,31.2,55.8,"CLAY, very high to extremely high strength",LOC: 56
+Unit: 01,S,0,0.2,"SAND, loose to very dense",LOC: 57
+Unit: 02,S,0,1,"SAND, dense to very dense",LOC: 57
+Unit: 03,C,1,4,"CLAY, low strength to high strength",LOC: 57
+Unit: 04,S,4,10.3,"SAND, dense to very dense",LOC: 57
+Unit: 06,C_S,10.3,13.9,"CLAY, very high strength ",LOC: 57
+Unit: 06,C_S,13.9,16.3,,LOC: 57
+Unit: 06,C_S,16.3,25,,LOC: 57
+Unit: 08,C_S,25,29,"CLAY and SILT, sandy, extremely high to ultra high strength",LOC: 57
+Unit: 09,S,29,32.7,"SAND, dense to very dense",LOC: 57
+Unit: 10,C,32.7,37,"CLAY, very high to extremely high strength",LOC: 57
+Unit: 10,C,37,46.5,,LOC: 57
+Unit: 10,C,46.5,52,,LOC: 57
+Unit: 10,C,52,55.17,,LOC: 57
+Unit: 01,S,0,0.4,"SAND, loose to very dense",LOC: 01
+Unit: 02,S,0.4,0.8,"SAND, very dense",LOC: 01
+Unit: 04,S,0.8,2,"SAND, very dense",LOC: 01
+Unit: 04,S,2,7,,LOC: 01
+Unit: 04,S,7,10.7,"SAND, dense to very dense",LOC: 01
+Unit: 06,C_S,10.7,14,"CLAY, extremely high strength, with layers of sand",LOC: 01
+Unit: 06,C_S,14,25.6,"CLAY, extremely high strength, with layers of sand",LOC: 01
+Unit: 08,C_S,25.6,35,"CLAY and SILT, sandy, extremely high to ultra high strength",LOC: 01
+Unit: 08,C_S,35,38,,LOC: 01
+Unit: 08,C_S,38,47,,LOC: 01
+Unit: 08,C_S,47,55.01,,LOC: 01
+Unit: 01,S,0,0.3,"SAND, loose to very dense",LOC: 10
+Unit: 02,S,0.3,0.8,"SAND, dense to very dense",LOC: 10
+Unit: 04,S,0.8,1.5,"SAND, dense to very dense",LOC: 10
+Unit: 04,S,1.5,3,,LOC: 10
+Unit: 04,S,3,5,,LOC: 10
+Unit: 05,Si,5,20,"SILT, very high to extremely high strength",LOC: 10
+Unit: 05,Si,20,26.1,,LOC: 10
+Unit: 09,S,26.1,27.34,"SAND, dense to very dense",LOC: 10
+Unit: 08,C_S,27.34,31,"CLAY and SILT, sandy, extremely high strength to ultra high strength",LOC: 10
+Unit: 08,C_S,31,34,,LOC: 10
+Unit: 08,C_S,34,40,,LOC: 10
+Unit: 08,C_S,40,43,,LOC: 10
+Unit: 08,C_S,43,50.88,,LOC: 10
+Unit: 01,S,0,0.1,"SAND, loose to very dense",LOC: 18
+Unit: 03,C_S,0.2,1.1,"CLAY, low strength to high strength",LOC: 18
+Unit: 04,S,1.1,4.2,"SAND, dense to very dense",LOC: 18
+Unit: 06,C_S,4.2,13,"CLAY, very high strength, with layers of sand",LOC: 18
+Unit: 06,C_S,13,21.5,"CLAY, very high to extremely high strength, with layers of sand",LOC: 18
+Unit: 06,C_S,21.5,26,,LOC: 18
+Unit: 04,S,26,29,"SAND, dense to very dense",LOC: 18
+Unit: 08,C_S,29,32.5,"CLAY and SILT, sandy, extremely high to ultra high strength",LOC: 18
+Unit: 08,C_S,32.5,42.3,,LOC: 18
+Unit: 01,S,0,0.1,"SAND, loose ",LOC: 20
+Unit: 03,C,0.1,5.1,"CLAY, low strength to medium strength",LOC: 20
+Unit: 04,S,5.1,6.5,"SAND, very dense",LOC: 20
+Unit: 04,S,6.5,8.9,,LOC: 20
+Unit: 04,S,8.9,12.3,"SAND, very dense",LOC: 20
+Unit: 04,S,12.3,15,,LOC: 20
+Unit: 04,S,15,27.25,,LOC: 20
+Unit: 06,C_S,27.25,32,"CLAY, extremely high strength ",LOC: 20
+Unit: 06,C_S,32,35.1,,LOC: 20
+Unit: 04,S,35.1,40,"SAND, dense to very dense",LOC: 20
+Unit: 06,C_S,40,42.15,"CLAY, very high strength",LOC: 20
+Unit: 04,S,42.15,42.31,"SAND, medium dense",LOC: 20
+Unit: 01,S,0,0.2,"SAND, loose to very dense",LOC: 23
+Unit: 03,C_S,0.2,1,"CLAY, medium strength to high strength",LOC: 23
+Unit: 03,C,1,2.6,"CLAY, medium strength to high strength",LOC: 23
+Unit: 04,S,2.6,7,"SAND, dense to very dense",LOC: 23
+Unit: 04,S,7,13.8,,LOC: 23
+Unit: 04,S,13.8,15,,LOC: 23
+Unit: 04,S,15,30.5,,LOC: 23
+Unit: 04,S,30.5,31.5,,LOC: 23
+Unit: 04,S,31.5,38.7,,LOC: 23
+Unit: 06,C_S,38.7,40.24,"CLAY, very high strength ",LOC: 23
+Unit: 01,S,0,0.4,"SAND,  loose ",LOC: 32
+Unit: 02,S,0.4,0.9,"SAND, medium dense to very dense",LOC: 32
+Unit: 04,S,0.9,10,"SAND, very dense",LOC: 32
+Unit: 04,S,10,14,,LOC: 32
+Unit: 04,S,14,17,"SAND, dense  to very dense",LOC: 32
+Unit: 04,S,17,21.8,,LOC: 32
+Unit: 06,C_S,21.8,25.3,"CLAY, very high strength ",LOC: 32
+Unit: 08,C_S,25.3,40.37,"CLAY and SILT, sandy, extremely high to ultra high strength",LOC: 32
+Unit: 01,S,0,0.35,"SAND, loose to very dense",LOC: 49
+Unit: 02,S,0.35,2.2,"SAND, dense to very dense",LOC: 49
+Unit: 06,C_S,2.2,10.9,"CLAY, medium strength to high strength",LOC: 49
+Unit: 04,S,10.9,12,"SAND, dense ",LOC: 49
+Unit: 04,S,12,15,,LOC: 49
+Unit: 06,C_S,15,18.6,"CLAY, very high strength ",LOC: 49
+Unit: 09,S,18.6,20.5,"SAND, very dense",LOC: 49
+Unit: 09,S,20.5,24,,LOC: 49
+Unit: 08,C_S,24,35,"CLAY and SILT, sandy, extremely high to ultra high strength",LOC: 49
+Unit: 08,C_S,35,45,,LOC: 49
+Unit: 08,C_S,45,54.97,,LOC: 49
+Unit: 01,S,0,0.6,"SAND, loose ",LOC: 53
+Unit: 02,S,0.6,2,"SAND, medium dense to very dense",LOC: 53
+Unit: 02,S,2,3.2,,LOC: 53
+Unit: 03,C,3.2,4.7,"CLAY, low to medium strength",LOC: 53
+Unit: 06,C_S,4.7,14.4,"CLAY, high to very high strength, with layers of sand",LOC: 53
+Unit: 09,S,14.4,16.5,"SAND, dense to very dense",LOC: 53
+Unit: 08,C_S,16.5,18,"CLAY and SILT, sandy, extremely high strength to ultra high strength",LOC: 53
+Unit: 08,C_S,18,19.7,,LOC: 53
+Unit: 10,C,19.7,30,"CLAY, very high to extremely high strength",LOC: 53
+Unit: 10,C,30,33,,LOC: 53
+Unit: 10,C,33,40.2,,LOC: 53
+Unit: 01,S,0,0.5,"CLAY, low strength to medium strength",LOC: 06
+Unit: 02,S,0.5,1,"SAND, fine to coarse, dense to very dense,  grey",LOC: 06
+Unit: 04,S,1,9.5,"SAND, fine to coarse, dense to very dense,  grey",LOC: 06
+Unit: 04,S,9.5,10.5,,LOC: 06
+Unit: 06,C_S,10.5,16.5,"CLAY, silty, very high to extremely high strength, slickenslided, with very closely spaced thin laminae of silty sand, dark grey",LOC: 06
+Unit: 06,C_S,16.5,25,,LOC: 06
+Unit: 06,C_S,25,27.2,"CLAY, silty, very high to extremely high strength, slickenslided,  closely spaced thin sand laminae",LOC: 06
+Unit: 08,C_S,27.2,32.5,"CLAY, silty, sandy, extremely high to ultra high strength, brown",LOC: 06
+Unit: 08,C_S,32.5,34,,LOC: 06
+Unit: 08,C_S,34,40.72,,LOC: 06
+Unit: 01,S,0,0.5,"SAND, very loose, light brown",LOC: 09
+Unit: 02,S,0.5,1,"SAND, some gravel, fine to medium, dense to very dense, light brown to light grey. Gravel is angular to well rounded, medium of mixed lithologies ",LOC: 09
+Unit: 04,S,1,10.5,"SAND, some gravel, fine to medium, dense to very dense, light brown to light grey. Gravel is angular to well rounded, medium of mixed lithologies ",LOC: 09
+Unit: 04,S,10.5,11.5,,LOC: 09
+Unit: 05,Si,11.5,12.5,"SILT, sandy, extremely high strength, very dark grey",LOC: 09
+Unit: 06,C_S,12.5,17.9,"CLAY, very high to extremely high strength, very dark grey",LOC: 09
+Unit: 04,S,17.9,19.7,"SAND, silty, fine, medium dense to dense, light grey",LOC: 09
+Unit: 08,C_S,19.7,26.7,"CLAY and SILT, sandy, extremely high strength to ultra high strength, very dark grey",LOC: 09
+Unit: 10,C,26.7,29,"CLAY, very high to extremely high strength, greenish grey to very dark grey",LOC: 09
+Unit: 10,C,29,41.19,,LOC: 09
+Unit: 01,S,0,0.6,"SAND,fine , dense to very dense, light grey",LOC: 35
+Unit: 02,S,0.6,1.8,"SAND, fine, medium dense to very dense, light grey ",LOC: 35
+Unit: 03,C,1.8,2.5,"CLAY, high to extremely high strength, dark grey",LOC: 35
+Unit: 04,S,2.5,5,"SAND, fine, dense to very dense, light grey to grey",LOC: 35
+Unit: 04,S,5,10,,LOC: 35
+Unit: 04,S,10,14,,LOC: 35
+Unit: 04,S,14,15.7,"SAND, fine, dense to very dense, very dark grey",LOC: 35
+Unit: 06,C_S,15.7,20.5,"CLAY, silty, sandy, very high to extremely high strength, very dark grey",LOC: 35
+Unit: 06,C_S,20.5,22.5,"CLAY, silty, extremely high strength, with traces of gravel, very dark grey to dark reddish brown",LOC: 35
+Unit: 08,C_S,22.5,38.2,"CLAY and SILT, sandy, extremely high strength to ultra high strength, with traces of gravel, very dark grey",LOC: 35
+Unit: 09,S,38.2,40.1,"SAND, fine to medium, very dense, very dark grey",LOC: 35
+Unit: 01,S,0,0.4,"SAND, some gravel, medium to coarse, very loose",LOC: 39
+Unit: 02,S,0.5,4.9,"SAND, fine, dense to very dense, dark brownish grey to dark greenish grey intermixed with sandy GRAVEL, fine to coarse, grey",LOC: 39
+Unit: 03,C,4.9,9.2,"CLAY, some gravel, high strength, with fine gravel sized pockets of fine sand, dark grey",LOC: 39
+Unit: 04,S,9.2,10.6,"SAND, fine to medium, medium dense to very dense, dark grey",LOC: 39
+Unit: 04,S,10.6,14.2,,LOC: 39
+Unit: 05,Si,14.2,19,"SILT, clayey, slightly sandy, very high to extremely high strength, very dark grey",LOC: 39
+Unit: 05,Si,19,23.5,,LOC: 39
+Unit: 04,S,23.5,24.5,"SAND, silty, fine to medium, very dense, dark grey",LOC: 39
+Unit: 04,S,24.5,27,,LOC: 39
+Unit: 08,C_S,27,40.1,"CLAY and SILT, sandy, slightly gravelly, extremely high strength to ultra high strength, very dark grey",LOC: 39
+Unit: 01,S,0,0.25,"SAND, loose to very dense",LOC: 45
+Unit: 03,C,0.25,4,"CLAY, some gravel, firm to stiff, medium to high strength, brownish very dark grey",LOC: 45
+Unit: 06,C_S,4,6,"CLAY, sandy, with thin layers of sand, silty, very high strength, with few sub-angular to rounded fine to medium gravels of mixed lithologies, dark grey",LOC: 45
+Unit: 06,C_S,6,25,,LOC: 45
+Unit: 06,C_S,25,30,,LOC: 45
+Unit: 06,C_S,30,34.5,,LOC: 45
+Unit: 08,C_S,34.5,44,"CLAY and SILT, sandy, extremely high strength to ultra high strength, very dark grey",LOC: 45
+Unit: 07,C,44,55,"CLAY, extremely high strength, with thin laminae of light grey and ligh brown silt, very dark brown",LOC: 45
+Unit: 01,S,0,0.5,"SAND, loose to very dense",LOC: 51
+Unit: 02,S,0.5,1.1,"SAND, fine to coarse, medium dense to very dense",LOC: 51
+Unit: 04,S,1.1,5,"SAND, fine, dense to very dense, light to dark grey",LOC: 51
+Unit: 04,S,5,11,,LOC: 51
+Unit: 05,Si,11,15,"SILT, clayey, slightly sandy, very high ro extremely high strength, dark to very dark grey",LOC: 51
+Unit: 05,Si,15,20,,LOC: 51
+Unit: 04,S,20,24,"SAND, clayey, slightly silty, dense to very dense, very dark grey",LOC: 51
+Unit: 06,C_S,24,29.5,"CLAY, silty, very high strength , very dark grey",LOC: 51
+Unit: 05,Si,29.5,40.23,"SILT, clayey, slightly sandy, extremely high strength, very dark grey",LOC: 51
+Unit: 06,C_S,40.23,45,"CLAY, extremely high strength",LOC: 51
+Unit: 06,C_S,45,50,,LOC: 51
+Unit: 06,C_S,50,54.3,,LOC: 51
+Unit: 09,S,54.3,55,"SAND, very dense",LOC: 51
+Unit: 01,S,0,0.2,"SAND, fine to coarse, loose to very dense",LOC: 58
+Unit: 02,S,0.2,1,"SAND, silty, dense to very dense",LOC: 58
+Unit: 03,C,1,3,"CLAY, medium to very high strength, with few gravels, grey to brownish grey",LOC: 58
+Unit: 04,S,3,10.3,"SAND, fine to medium, dense to very dense, very dark grey",LOC: 58
+Unit: 06,C_S,10.3,13.9,"CLAY, silty, sandy, very high to extremely high strength, very dark grey",LOC: 58
+Unit: 06,C_S,13.9,16.3,,LOC: 58
+Unit: 06,C_S,16.3,23.7,,LOC: 58
+Unit: 09,S,23.7,25,"SAND, medium to coarse, very dense, light grey",LOC: 58
+Unit: 08,C_S,25,32.5,"CLAY and SILT, sandy, extremely high strength to ultra high strength, dark grey",LOC: 58
+Unit: 10,C,32.5,55,"CLAY, very high to extremely high strength, ver dark grey to very dark greenish grey",LOC: 58
+Unit: 01,S,0,0.3,"SAND, loose to very dense",LOC: 29
+Unit: 03,C_S,0.3,1.2,"CLAY, low strength to high strength",LOC: 29
+Unit: 03,C,1.2,5.2,"CLAY, low strength to high strength",LOC: 29
+Unit: 04,S,5.2,10,"SAND, dense to very dense",LOC: 29
+Unit: 04,S,10,12,,LOC: 29
+Unit: 04,S,12,15.1,"SAND, dense to very dense",LOC: 29
+Unit: 06,C_S,15.1,19.2,"CLAY, very high strength ",LOC: 29
+Unit: 09,S,19.2,24,"SAND, very dense",LOC: 29
+Unit: 08,C_S,24,38,"CLAY and SILT, extremely high strength to ultra high strength",LOC: 29
+Unit: 08,C_S,38,41.2,,LOC: 29

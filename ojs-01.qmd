@@ -1,0 +1,124 @@
+---
+title: "01 SOIL UNITS"
+format: 
+    html:
+        fontsize: 0.95em
+        mainfont: 'Fira Mono'
+        echo: false
+        code-tools: true
+        page-layout: custom
+        toc: false
+        margin-left: 35px
+        margin-right: 35px
+---
+
+```{ojs .hidden}
+ojs_data_01 = FileAttachment('data-01.csv').csv({typed: true})
+```
+
+::: {.grid}
+
+::: {.g-col-3}
+
+## Controls
+
+Control the appearance here.
+
+#### Content
+
+```{ojs}
+viewof opac = Inputs.range([0, 1], {value: 1, step: 0.01, label: "Opacity:"})
+viewof rads = Inputs.range([0, 8], {value: 2, step: 1, label: "Round:"})
+viewof heig = Inputs.range([500, 2000], {value: 750, step: 10, label: "Plot height:"})
+```
+
+#### Filter
+
+Set `Opacity:` to zero and select one or several Soil units to show on the plot.
+
+```{ojs}
+// select soil unit
+viewof filt_unit = Inputs.select([null].concat(ojs_data_01.map(d => d.unit)), {multiple: true, label: "Soil unit:", sort: true, unique: true})
+ojs_data_01_filt = ojs_data_01.filter(function(func_unit_filt) {return filt_unit.includes(func_unit_filt.unit);})
+```
+
+:::
+
+::: {.g-col-9}
+
+## Plot
+
+Plot of soil units in each location.
+
+```{ojs}
+Plot.plot({
+    style: {
+        fontSize: 14,
+        //fontWeight: 450,
+        fontFamily: 'Fira Mono'
+    },
+    y: {
+        domain: [0, 65],
+        reverse: true,
+        label:"Depth (m)"
+    },
+    x: {
+        label: "",
+        tickRotate: 90
+    },
+    marginLeft: 75,
+    marginRight: 50,
+    marginTop: 35,
+    marginBottom: 125,
+    color: {
+        label: "",
+        legend: "ramp",
+        width: 1350
+    },
+    width: 1350,
+    height: heig,
+    grid: true,
+    marks: [
+        Plot.frame(),
+        // soil units
+        Plot.barY(ojs_data_01, {
+            x: "loc",
+            y1: "from",
+            y2: "to",
+            stroke: 'unit',
+            fill: 'unit',
+            fillOpacity: opac,
+            strokeOpacity: opac,
+            rx: rads,
+            ry: rads
+        }),
+        // soil units filt
+        Plot.barY(ojs_data_01_filt, {
+            x: "loc",
+            y1: "from",
+            y2: "to",
+            stroke: 'unit',
+            fill: 'unit',
+            fillOpacity: 1,
+            strokeOpacity: 1,
+            rx: rads,
+            ry: rads
+        })
+  ]
+})
+```
+
+:::
+
+:::
+
+## Data
+
+Have a look at the actual data.
+
+```{ojs}
+viewof search = Inputs.search(ojs_data_01)
+Inputs.table(search, {rows: 15})
+```
+
+## End.

@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "ojs-01.html#controls",
+    "href": "ojs-01.html#controls",
+    "title": "01 SOIL UNITS",
+    "section": "Controls",
+    "text": "Controls\nControl the appearance here.\n\nContent\n\nviewof opac = Inputs.range([0, 1], {value: 1, step: 0.01, label: \"Opacity:\"})\nviewof rads = Inputs.range([0, 8], {value: 2, step: 1, label: \"Round:\"})\nviewof heig = Inputs.range([500, 2000], {value: 750, step: 10, label: \"Plot height:\"})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFilter\nSet Opacity: to zero and select one or several Soil units to show on the plot.\n\nviewof filt_unit = Inputs.select([null].concat(ojs_data_01.map(d =&gt; d.unit)), {multiple: true, label: \"Soil unit:\", sort: true, unique: true})\nojs_data_01_filt = ojs_data_01.filter(function(func_unit_filt) {return filt_unit.includes(func_unit_filt.unit);})"
+  },
+  {
+    "objectID": "ojs-01.html#plot",
+    "href": "ojs-01.html#plot",
+    "title": "01 SOIL UNITS",
+    "section": "Plot",
+    "text": "Plot\nPlot of soil units in each location.\n\nPlot.plot({\n    style: {\n        fontSize: 14,\n        //fontWeight: 450,\n        fontFamily: 'Fira Mono'\n    },\n    y: {\n        domain: [0, 65],\n        reverse: true,\n        label:\"Depth (m)\"\n    },\n    x: {\n        label: \"\",\n        tickRotate: 90\n    },\n    marginLeft: 75,\n    marginRight: 50,\n    marginTop: 35,\n    marginBottom: 125,\n    color: {\n        label: \"\",\n        legend: \"ramp\",\n        width: 1350\n    },\n    width: 1350,\n    height: heig,\n    grid: true,\n    marks: [\n        Plot.frame(),\n        // soil units\n        Plot.barY(ojs_data_01, {\n            x: \"loc\",\n            y1: \"from\",\n            y2: \"to\",\n            stroke: 'unit',\n            fill: 'unit',\n            fillOpacity: opac,\n            strokeOpacity: opac,\n            rx: rads,\n            ry: rads\n        }),\n        // soil units filt\n        Plot.barY(ojs_data_01_filt, {\n            x: \"loc\",\n            y1: \"from\",\n            y2: \"to\",\n            stroke: 'unit',\n            fill: 'unit',\n            fillOpacity: 1,\n            strokeOpacity: 1,\n            rx: rads,\n            ry: rads\n        })\n  ]\n})"
+  },
+  {
+    "objectID": "ojs-01.html#data",
+    "href": "ojs-01.html#data",
+    "title": "01 SOIL UNITS",
+    "section": "Data",
+    "text": "Data\nHave a look at the actual data.\n\nviewof search = Inputs.search(ojs_data_01)\nInputs.table(search, {rows: 15})"
+  },
+  {
+    "objectID": "ojs-01.html#end.",
+    "href": "ojs-01.html#end.",
+    "title": "01 SOIL UNITS",
+    "section": "End.",
+    "text": "End.\n\n\n\nSource Code\n---\ntitle: \"01 SOIL UNITS\"\nformat: \n    html:\n        fontsize: 0.95em\n        mainfont: 'Fira Mono'\n        echo: false\n        code-tools: true\n        page-layout: custom\n        toc: false\n        margin-left: 35px\n        margin-right: 35px\n---\n\n```{ojs .hidden}\nojs_data_01 = FileAttachment('data-01.csv').csv({typed: true})\n```\n\n::: {.grid}\n\n::: {.g-col-3}\n\n## Controls\n\nControl the appearance here.\n\n#### Content\n\n```{ojs}\nviewof opac = Inputs.range([0, 1], {value: 1, step: 0.01, label: \"Opacity:\"})\nviewof rads = Inputs.range([0, 8], {value: 2, step: 1, label: \"Round:\"})\nviewof heig = Inputs.range([500, 2000], {value: 750, step: 10, label: \"Plot height:\"})\n```\n\n#### Filter\n\nSet `Opacity:` to zero and select one or several Soil units to show on the plot.\n\n```{ojs}\n// select soil unit\nviewof filt_unit = Inputs.select([null].concat(ojs_data_01.map(d =&gt; d.unit)), {multiple: true, label: \"Soil unit:\", sort: true, unique: true})\nojs_data_01_filt = ojs_data_01.filter(function(func_unit_filt) {return filt_unit.includes(func_unit_filt.unit);})\n```\n\n:::\n\n::: {.g-col-9}\n\n## Plot\n\nPlot of soil units in each location.\n\n```{ojs}\nPlot.plot({\n    style: {\n        fontSize: 14,\n        //fontWeight: 450,\n        fontFamily: 'Fira Mono'\n    },\n    y: {\n        domain: [0, 65],\n        reverse: true,\n        label:\"Depth (m)\"\n    },\n    x: {\n        label: \"\",\n        tickRotate: 90\n    },\n    marginLeft: 75,\n    marginRight: 50,\n    marginTop: 35,\n    marginBottom: 125,\n    color: {\n        label: \"\",\n        legend: \"ramp\",\n        width: 1350\n    },\n    width: 1350,\n    height: heig,\n    grid: true,\n    marks: [\n        Plot.frame(),\n        // soil units\n        Plot.barY(ojs_data_01, {\n            x: \"loc\",\n            y1: \"from\",\n            y2: \"to\",\n            stroke: 'unit',\n            fill: 'unit',\n            fillOpacity: opac,\n            strokeOpacity: opac,\n            rx: rads,\n            ry: rads\n        }),\n        // soil units filt\n        Plot.barY(ojs_data_01_filt, {\n            x: \"loc\",\n            y1: \"from\",\n            y2: \"to\",\n            stroke: 'unit',\n            fill: 'unit',\n            fillOpacity: 1,\n            strokeOpacity: 1,\n            rx: rads,\n            ry: rads\n        })\n  ]\n})\n```\n\n:::\n\n:::\n\n## Data\n\nHave a look at the actual data.\n\n```{ojs}\nviewof search = Inputs.search(ojs_data_01)\nInputs.table(search, {rows: 15})\n```\n\n## End."
+  }
+]
