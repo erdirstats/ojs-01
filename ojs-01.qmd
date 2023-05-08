@@ -3,7 +3,6 @@ title: "01 SOIL UNITS"
 format: 
     html:
         fontsize: 0.95em
-        mainfont: 'Fira Mono'
         echo: false
         code-tools: true
         page-layout: custom
